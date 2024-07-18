@@ -1,5 +1,5 @@
 resource "aws_security_group" "main" {
-  name        = "main-sg-new"  # Change this name to avoid conflict
+  name        = "main-sg-new" 
   description = "Main security group"
   vpc_id      = var.vpc_id
 
